@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             xmlns:ads="clr-namespace:Vibratr.Controls"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="Vibratr.Views.AboutPage" Title="About">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="0">
+            <Image Source="logo2.png" WidthRequest="160" HorizontalOptions="FillAndExpand" Margin="0,40" />
+            <Label Text="Thank you for trying vibratr. This app is intended to run your phone's vibration feature independently at your control."
+                HorizontalTextAlignment="Center" FontSize="Medium" Margin="14,0"/>
+            <Label Text="Use this however you like, (device testing, notification alerts, muscle massage etc.)"
+                HorizontalTextAlignment="Center" FontSize="Medium" Margin="14,0"/>
+            <Label Text="yet use this AT YOU OWN RISK. Any excessive use of this app might overwork your phone's vibrating feature and have a chance to damage your phone or to you as the user. Vibrate! and the developer will not be liable for any damage that might inflict to you or your phone."
+                HorizontalTextAlignment="Center" FontSize="Medium" Margin="14,0"/>
+        </StackLayout>
+        <!--<StackLayout Grid.Row="1" Margin="0" Padding="0" HeightRequest="90" BackgroundColor="Black">
+            <ads:AdControlView HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"/>
+        </StackLayout>-->
+
+
+    </Grid>
+  
+</ContentPage>

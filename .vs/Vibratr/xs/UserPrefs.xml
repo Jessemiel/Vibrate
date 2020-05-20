@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{585B4C6A-AB5B-4DB7-B1A3-137955DB0607}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Vibratr/Vibratr/Views/MainPage.xaml">
+    <Files>
+      <File FileName="Vibratr/Vibratr/Views/MainPage.xaml" Line="34" Column="51" />
+      <File FileName="Vibratr/Vibratr.Android/Helpers/AdViewRenderer.cs" />
+      <File FileName="Vibratr/Vibratr/Views/AboutPage.xaml" />
+      <File FileName="Vibratr/Vibratr.Android/Properties/AndroidManifest.xml" />
+      <File FileName="Vibratr/Vibratr/Controls/AdControlView.cs" />
+      <File FileName="Vibratr/Vibratr/ViewModels/MainPageViewModel.cs" />
+      <File FileName="Vibratr/Vibratr.Android/MainActivity.cs" />
+      <File FileName="Vibratr/Vibratr/ViewModels/ViewModelBase.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Vibratr" expanded="True">
+            <Node name="Vibratr" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controls" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="MainPage.xaml" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Vibratr.Android" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Vibratr.Android PreferredExecutionTarget="Android.galaxy_nexus_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

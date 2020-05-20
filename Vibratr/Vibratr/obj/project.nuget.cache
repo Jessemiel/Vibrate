@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "eVwd6gaWSu8aZoqn8fBJGFwCufYyj1SbL/24lXL52lZtL59yCKaMdw6jhBMqCora7dWfi7MmvUMA8Koa+VJYZA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jesse\\Desktop\\PC share\\vbtr\\Vibratr\\Vibratr\\Vibratr\\Vibratr\\Vibratr.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jesse\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jesse\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\jesse\\.nuget\\packages\\prism.core\\7.2.0.1422\\prism.core.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\jesse\\.nuget\\packages\\prism.forms\\7.2.0.1422\\prism.forms.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\jesse\\.nuget\\packages\\prism.unity.forms\\7.2.0.1422\\prism.unity.forms.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\jesse\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\jesse\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\jesse\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+    "C:\\Users\\jesse\\.nuget\\packages\\unity.abstractions\\5.11.1\\unity.abstractions.5.11.1.nupkg.sha512",
+    "C:\\Users\\jesse\\.nuget\\packages\\unity.container\\5.11.1\\unity.container.5.11.1.nupkg.sha512",
+    "C:\\Users\\jesse\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
+    "C:\\Users\\jesse\\.nuget\\packages\\xamarin.forms\\4.5.0.530\\xamarin.forms.4.5.0.530.nupkg.sha512"
+  ],
+  "logs": []
+}

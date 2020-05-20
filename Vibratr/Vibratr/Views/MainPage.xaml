@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Vibratr.Views.MainPage"
+             xmlns:converter="clr-namespace:Vibratr.Converters"
+             xmlns:ads="clr-namespace:Vibratr.Controls"
+             NavigationPage.HasNavigationBar="False" BackgroundColor="White">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:ReverseBool x:Key="revBool" />
+            <converter:BoolToStringP1 x:Key="P1" />
+            <converter:BoolToStringP2 x:Key="P2" />
+            <converter:BoolToStringP3 x:Key="P3" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <AbsoluteLayout BackgroundColor="White">
+        <Image Source="logo2.png"
+               AbsoluteLayout.LayoutBounds=".5,.08,0.45,0.1" AbsoluteLayout.LayoutFlags="All"/>
+
+        <Image Source="vbtrOFF"  IsVisible="{Binding AllowRun}"
+               AbsoluteLayout.LayoutBounds=".5,.3,.35,.35" AbsoluteLayout.LayoutFlags="All">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding VibrateDevice}" />
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Image Source="vbtrON" IsVisible="{Binding AllowRun, Converter={StaticResource revBool}}"
+               AbsoluteLayout.LayoutBounds=".5,.3,.35,.35" AbsoluteLayout.LayoutFlags="All">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding CancelVibrate}" />
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Frame AbsoluteLayout.LayoutBounds=".5,.55,0.9,0.1" AbsoluteLayout.LayoutFlags="All"
+               CornerRadius="8" HorizontalOptions="FillAndExpand" HasShadow="False" BackgroundColor="#f6f6f6"
+               Padding="8">
+            <StackLayout VerticalOptions="CenterAndExpand" >
+                <Slider  Maximum="1000" Minimum="20"  Value="{Binding Duration}" MinimumTrackColor="DarkBlue" ThumbColor="Orange"/>
+                <Label Text="Vibration Effects" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </Frame>
+        
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"
+                     AbsoluteLayout.LayoutBounds=".5,0.85,1,.1" AbsoluteLayout.LayoutFlags="All">
+            <Image Source="{Binding P1Stat, Converter={StaticResource P1}}" HorizontalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding Pattern1}" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="{Binding P2Stat, Converter={StaticResource P2}}" HorizontalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding Pattern2}" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="{Binding P3Stat, Converter={StaticResource P3}}" HorizontalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding Pattern3}" />
+                </Image.GestureRecognizers>
+            </Image>            
+            <Image Source="more" HorizontalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding NavigatoToAbout}" />
+                </Image.GestureRecognizers>
+            </Image>
+        </StackLayout>
+        <!--<StackLayout Margin="20,0,0,0">
+            <Label Text="{Binding P1Stat, Converter={StaticResource P1}}" />
+            <Label Text="{Binding P2Stat, Converter={StaticResource P2}}" />
+            <Label Text="{Binding P3Stat, Converter={StaticResource P3}}" />
+            <Label Text="{Binding Duration}" />
+        </StackLayout>-->
+        
+        <StackLayout Padding="0" Margin="0" HorizontalOptions="FillAndExpand" BackgroundColor="Gray"
+                     AbsoluteLayout.LayoutBounds=".5,1,1,.11" AbsoluteLayout.LayoutFlags="All">
+           <ads:AdControlView HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand"/>
+
+        </StackLayout>
+
+    </AbsoluteLayout>
+
+    
+
+</ContentPage>
