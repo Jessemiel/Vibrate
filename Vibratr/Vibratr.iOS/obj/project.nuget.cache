@@ -1,18 +1,32 @@
 {
   "version": 2,
-  "dgSpecHash": "v9qAHW8PEK334lr8sYbcRhWgeLsAuS9175UGF/phqVFWEY/JlUy6H60fJRJIaTvRP5Yk9X1HGd77D0UR6m4VBQ==",
+  "dgSpecHash": "y7DfvO+NLv47IkmGP8/GjjT5U0iQ2scDafPrttRsSX11wQwpgThlv7/nUkryWAnb22omllqH9Sl23LPWadcuFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jesse\\Desktop\\PC share\\vbtr\\Vibratr\\Vibratr\\Vibratr\\Vibratr.iOS\\Vibratr.iOS.csproj",
+  "projectFilePath": "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr.iOS/Vibratr.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jesse\\.nuget\\packages\\prism.core\\7.2.0.1422\\prism.core.7.2.0.1422.nupkg.sha512",
-    "C:\\Users\\jesse\\.nuget\\packages\\prism.forms\\7.2.0.1422\\prism.forms.7.2.0.1422.nupkg.sha512",
-    "C:\\Users\\jesse\\.nuget\\packages\\prism.unity.forms\\7.2.0.1422\\prism.unity.forms.7.2.0.1422.nupkg.sha512",
-    "C:\\Users\\jesse\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-    "C:\\Users\\jesse\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
-    "C:\\Users\\jesse\\.nuget\\packages\\unity.abstractions\\5.11.1\\unity.abstractions.5.11.1.nupkg.sha512",
-    "C:\\Users\\jesse\\.nuget\\packages\\unity.container\\5.11.1\\unity.container.5.11.1.nupkg.sha512",
-    "C:\\Users\\jesse\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
-    "C:\\Users\\jesse\\.nuget\\packages\\xamarin.forms\\4.5.0.530\\xamarin.forms.4.5.0.530.nupkg.sha512"
+    "/Users/macbookpro/.nuget/packages/prism.core/7.2.0.1422/prism.core.7.2.0.1422.nupkg.sha512",
+    "/Users/macbookpro/.nuget/packages/prism.forms/7.2.0.1422/prism.forms.7.2.0.1422.nupkg.sha512",
+    "/Users/macbookpro/.nuget/packages/prism.unity.forms/7.2.0.1422/prism.unity.forms.7.2.0.1422.nupkg.sha512",
+    "/Users/macbookpro/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/macbookpro/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+    "/Users/macbookpro/.nuget/packages/unity.abstractions/5.11.1/unity.abstractions.5.11.1.nupkg.sha512",
+    "/Users/macbookpro/.nuget/packages/unity.container/5.11.1/unity.container.5.11.1.nupkg.sha512",
+    "/Users/macbookpro/.nuget/packages/xamarin.essentials/1.5.3.1/xamarin.essentials.1.5.3.1.nupkg.sha512",
+    "/Users/macbookpro/.nuget/packages/xamarin.forms/4.5.0.530/xamarin.forms.4.5.0.530.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.5.0.617 to 4.5.0.530. Reference the package directly from the project to select a different version. \n Vibratr.iOS -> Vibratr -> Xamarin.Forms (>= 4.5.0.617) \n Vibratr.iOS -> Xamarin.Forms (>= 4.5.0.530)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

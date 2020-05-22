@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/macbookpro/Desktop/XAMARIN PROJ/Vibratr/Vibratr/Vibratr/Vibratr.iOS/Vibratr.iOS.csproj": {}
+    "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr.iOS/Vibratr.iOS.csproj": {}
   },
   "projects": {
-    "/Users/macbookpro/Desktop/XAMARIN PROJ/Vibratr/Vibratr/Vibratr/Vibratr.iOS/Vibratr.iOS.csproj": {
+    "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr.iOS/Vibratr.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/macbookpro/Desktop/XAMARIN PROJ/Vibratr/Vibratr/Vibratr/Vibratr.iOS/Vibratr.iOS.csproj",
+        "projectUniqueName": "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr.iOS/Vibratr.iOS.csproj",
         "projectName": "Vibratr.iOS",
-        "projectPath": "/Users/macbookpro/Desktop/XAMARIN PROJ/Vibratr/Vibratr/Vibratr/Vibratr.iOS/Vibratr.iOS.csproj",
+        "projectPath": "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr.iOS/Vibratr.iOS.csproj",
         "packagesPath": "/Users/macbookpro/.nuget/packages/",
-        "outputPath": "/Users/macbookpro/Desktop/XAMARIN PROJ/Vibratr/Vibratr/Vibratr/Vibratr.iOS/obj/",
+        "outputPath": "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/macbookpro/Desktop/XAMARIN PROJ/Vibratr/Vibratr/Vibratr/Vibratr/Vibratr.csproj": {
-                "projectPath": "/Users/macbookpro/Desktop/XAMARIN PROJ/Vibratr/Vibratr/Vibratr/Vibratr/Vibratr.csproj"
+              "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr/Vibratr.csproj": {
+                "projectPath": "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr/Vibratr.csproj"
               }
             }
           }
@@ -59,14 +59,14 @@
         }
       }
     },
-    "/Users/macbookpro/Desktop/XAMARIN PROJ/Vibratr/Vibratr/Vibratr/Vibratr/Vibratr.csproj": {
+    "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr/Vibratr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/macbookpro/Desktop/XAMARIN PROJ/Vibratr/Vibratr/Vibratr/Vibratr/Vibratr.csproj",
+        "projectUniqueName": "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr/Vibratr.csproj",
         "projectName": "Vibratr",
-        "projectPath": "/Users/macbookpro/Desktop/XAMARIN PROJ/Vibratr/Vibratr/Vibratr/Vibratr/Vibratr.csproj",
+        "projectPath": "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr/Vibratr.csproj",
         "packagesPath": "/Users/macbookpro/.nuget/packages/",
-        "outputPath": "/Users/macbookpro/Desktop/XAMARIN PROJ/Vibratr/Vibratr/Vibratr/Vibratr/obj/",
+        "outputPath": "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -123,7 +123,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2566,11 +2566,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/macbookpro/Desktop/XAMARIN PROJ/Vibratr/Vibratr/Vibratr/Vibratr.Android/Vibratr.Android.csproj",
+      "projectUniqueName": "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr.Android/Vibratr.Android.csproj",
       "projectName": "Vibratr.Android",
-      "projectPath": "/Users/macbookpro/Desktop/XAMARIN PROJ/Vibratr/Vibratr/Vibratr/Vibratr.Android/Vibratr.Android.csproj",
+      "projectPath": "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr.Android/Vibratr.Android.csproj",
       "packagesPath": "/Users/macbookpro/.nuget/packages/",
-      "outputPath": "/Users/macbookpro/Desktop/XAMARIN PROJ/Vibratr/Vibratr/Vibratr/Vibratr.Android/obj/",
+      "outputPath": "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2585,8 +2585,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/macbookpro/Desktop/XAMARIN PROJ/Vibratr/Vibratr/Vibratr/Vibratr/Vibratr.csproj": {
-              "projectPath": "/Users/macbookpro/Desktop/XAMARIN PROJ/Vibratr/Vibratr/Vibratr/Vibratr/Vibratr.csproj"
+            "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr/Vibratr.csproj": {
+              "projectPath": "/Users/macbookpro/Documents/GitHub/vibrate/Vibratr/Vibratr/Vibratr.csproj"
             }
           }
         }
