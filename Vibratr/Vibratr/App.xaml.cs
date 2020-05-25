@@ -4,6 +4,10 @@ using Vibratr.ViewModels;
 using Vibratr.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Vibratr
@@ -24,6 +28,12 @@ namespace Vibratr
             InitializeComponent();
 
             await NavigationService.NavigateAsync("NavigationPage/MainPage");
+        }
+
+        protected override void OnStart()
+        {
+
+            base.OnStart();
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
