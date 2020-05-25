@@ -4,9 +4,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Vibratr" expanded="True">
-            <Node name="Vibratr.Android" expanded="True" selected="True">
-              <Node name="Packages" expanded="True" />
-            </Node>
+            <Node name="Vibratr.Android" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>

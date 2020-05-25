@@ -7,6 +7,7 @@
 *.userosscache
 *.sln.docstates
 *.ds_store
+*.DS_store
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -270,3 +271,11 @@ Vibratr/.DS_Store
 Vibratr/.DS_Store
 Vibratr/Vibratr.Android/.DS_Store
 .DS_Store
+
+.vs/Vibratr/xs/project-cache/Vibratr.iOS-Release|iPhone.json
+.vs/Vibratr/xs/project-cache/Vibratr.iOS-Debug|iPhone.json
+.vs/Vibratr/xs/project-cache/Vibratr.Android-Release.json
+.vs/Vibratr/xs/project-cache/Vibratr.Android-Debug.json
+.vs/Vibratr/xs/project-cache/Vibratr-Release.json
+.vs/Vibratr/xs/project-cache/Vibratr-Debug.json
+*.json
