@@ -34,6 +34,10 @@ namespace Vibratr
         {
 
             base.OnStart();
+
+            AppCenter.Start(Util.AppCenterKeyAndroid,
+                   typeof(Analytics), typeof(Crashes));
+
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
